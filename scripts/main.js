@@ -21,7 +21,7 @@
 
 'use strict';
 
-const applicationServerPublicKey = 'BAVbex7LECuvj0RbyzpmQfJmidzmHEaKjvu4gat6ZM7JzlO0wIcPId1yHrt2oUAF-eq7uSD8qnB5StyhSVMIDwc';
+const applicationServerPublicKey = 'BFqabWqqW_XjmJdiP08j1UUjvtj0k1CqgXEZdtdFyhOQTpRYIHrwZWDVYGRNh7';
 
 const pushButton = document.querySelector('.js-push-btn');
 
@@ -40,7 +40,7 @@ function urlB64ToUint8Array(base64String) {
   for (let i = 0; i < rawData.length; ++i) {
     outputArray[i] = rawData.charCodeAt(i);
   }
-  return outputArray;
+  return outputArray;B
 }
 
 if ('serviceWorker' in navigator && 'PushManager' in window) {
