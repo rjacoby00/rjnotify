@@ -64,7 +64,7 @@ function sendPushMessage() {
       data: dataString,
       applicationKeys: {
         public: 'BPZY94NiLyYwe-B4PCdIBLJWkzVsn1pfCKTfPAdY-aLROGibx08V8LjJkdZfWKg9kdl2Geb5QOrY9pflIejQ9gg',
-        private: privateElement.textContent,
+        private: privateElement.value,
       }
     })
   })
