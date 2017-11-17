@@ -54,7 +54,7 @@ function sendPushMessage() {
   const publicElement = document.querySelector('.js-public-key');
   const privateElement = document.querySelector('.js-private-key');
 
-  return fetch('/api/send-push-msg', {
+  return fetch('https://web-push-codelab.glitch.me/api/send-push-msg', {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json'
