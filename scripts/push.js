@@ -63,7 +63,7 @@ function sendPushMessage() {
       subscription: subscriptionObject,
       data: dataString,
       applicationKeys: {
-        public: publicElement.textContent,
+        public: 'BPZY94NiLyYwe-B4PCdIBLJWkzVsn1pfCKTfPAdY-aLROGibx08V8LjJkdZfWKg9kdl2Geb5QOrY9pflIejQ9gg',
         private: privateElement.textContent,
       }
     })
