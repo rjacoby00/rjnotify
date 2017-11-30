@@ -20,5 +20,6 @@
   ],
   "start_url": "/rjnotify",
   "background_color": "#f44336",
-  "theme_color": "#f44336"
+  "theme_color": "#f44336",
+  "display": "standalone"
 }
